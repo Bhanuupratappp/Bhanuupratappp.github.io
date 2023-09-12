@@ -80,7 +80,7 @@ section .title::before {
   left: 50%;
   width: 220px;
   height: 3px;
-  background: #01c7d0;
+  background: #00a2df;
   transform: translateX(-50%);
 }
 
@@ -89,7 +89,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: #01c7d0;
+  color: #00a2df;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -103,12 +103,12 @@ section .title::after {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
-  /* border: 4px solid #01c7d0; */
+  /* border: 4px solid #00a2df; */
 }
 
 #nav-menu.sticky {
   padding: 15px 0;
-  background:#01c7d0;
+  background:#00a2df;
 }
 
 #nav-menu .max-width {
@@ -124,7 +124,7 @@ section .title::after {
 }
 
 #nav-menu .logo a span {
-  color: #01c7d0;
+  color: #d06201;
   transition: all 0.3s ease;
 }
 
@@ -147,7 +147,7 @@ section .title::after {
 }
 
 #nav-menu .menu li a:hover {
-  color:  #01c7d0;
+  color:  #00a2df;
 }
 
 #nav-menu.sticky .menu li a:hover {
@@ -199,7 +199,7 @@ section .title::after {
 /* home section styling */
 .home-2,.home {
   display: flex;
-  background: url(./images/laptop15.jpg) no-repeat center;
+  background: url(./images/background2.jpg) no-repeat center;
   background-color: #111;
   height: 50vh;
   
@@ -241,34 +241,34 @@ section .title::after {
 }
 
 .home-2 .home-content .text-3 span {
-  color: #01c7d0;
+  color: #00a2df;
   font-weight: 500;
 }
 .home-2 .home-content button{
   border-radius: 6px;
-  background: #01c7d0;
-  border: 2px solid #01c7d0;
+  background: #00a2df;
+  border: 2px solid #00a2df;
   margin-top: 20px;
   transition: all 0.3s ease;
 }
 .home-2 .home-content a {
   display: inline-block;
-  background: #01c7d0;
+  background: #00a2df;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   font-weight: 400;
-  /* border: 2px solid #01c7d0; */
+  /* border: 2px solid #00a2df; */
   border-radius: 6px;
   transition: all 0.3s ease;
 }
 
 .home-2 .home-content a:hover {
-  color: #01c7d0;
+  color: #00a2df;
   background: none;
 }
 .home-2 .home-content button:hover {
-  color: #01c7d0;
+  color: #00a2df;
   background: none;
 }
 
@@ -285,7 +285,7 @@ section .title::after {
   /* border: 4px solid red; */
   /* margin-top: -50px; */
   height: 60vh;
-  /* border: 4px solid #01c7d0; */
+  /* border: 4px solid #00a2df; */
   display: flex;
 }
 
@@ -314,7 +314,7 @@ section .title::after {
 }
 
 #about .about-content .right .text span {
-  color: #01c7d0;
+  color: #00a2df;
 
 }
 
@@ -324,19 +324,19 @@ section .title::after {
 
 #about .about-content .right a {
   display: inline-block;
-  background: #01c7d0;
+  background: #00a2df;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #01c7d0;
+  border: 2px solid #00a2df;
   transition: all 0.3s ease;
 }
 
 #about .about-content .right a:hover {
-  color: #01c7d0;
+  color: #00a2df;
   background: none;
 }
 
@@ -377,7 +377,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-  background: #01c7d0;
+  background: #00a2df;
   color: #fff;
   /* change*/
 }
@@ -439,19 +439,19 @@ section .title::after {
 
 .skills .skills-content .left a {
   display: inline-block;
-  background: #01c7d0;
+  background: #00a2df;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #01c7d0;
+  border: 2px solid #00a2df;
   transition: all 0.3s ease;
 }
 
 .skills .skills-content .left a:hover {
-  color: #01c7d0;
+  color: #00a2df;
   background: none;
 }
 
@@ -474,7 +474,7 @@ section .title::after {
 .skills .skills-content .right .line {
   height: 5px;
   width: 100%;
-  background: #01c7d0;
+  background: #00a2df;
   position: relative;
 }
 
@@ -484,7 +484,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: #01c7d0;
+  background: #00a2df;
 }
 
 .skills-content .right .html::before {
@@ -522,7 +522,7 @@ section .title::after {
 }
 
 .project .carousel .project-card:hover {
-  background: #01c7d0;
+  background: #00a2df;
   color: white;
   /* change */
 }
@@ -588,7 +588,7 @@ section .title::after {
   width: 330px;
   object-fit: cover;
   border-radius: 3%;
-  border: 3px solid #01c7d0;
+  border: 3px solid #00a2df;
   transition: all 0.3s ease;
 }
 
@@ -633,7 +633,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid #01c7d0 !important;
+  border: 2px solid #00a2df !important;
   transition: all 0.3s ease;
 }
 
@@ -644,7 +644,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-  background: #01c7d0 !important;
+  background: #00a2df !important;
 }
 
 .skills-card {
@@ -695,7 +695,7 @@ section .title::after {
 
 .contact .contact-content .row i {
   font-size: 25px;
-  color: #01c7d0;
+  color: #00a2df;
 }
 
 .contact .contact-content .info .head {
@@ -737,7 +737,7 @@ section .title::after {
 .contact .right form .textarea textarea {
   height: 100%;
   width: 100%;
-  border: 1px solid #01c7d0;
+  border: 1px solid #00a2df;
   border-radius: 6px;
   outline: none;
   padding: 0 15px;
@@ -772,26 +772,26 @@ section .title::after {
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background:#01c7d0;
-  border: 2px solid#01c7d0;
+  background:#00a2df;
+  border: 2px solid#00a2df;
   transition: all 0.3s ease;
 }
 
 .right form .button-area button:hover {
-  color:#01c7d0;
+  color:#00a2df;
   background: none;
 }
 
 /* footer section styling */
 footer {
-  background:#01c7d0;
+  background:#00a2df;
   padding: 15px 23px;
   color: #fff;
   text-align: center;
 }
 
 footer span a {
-  color: #01c7d0;
+  color: #00a2df;
   text-decoration: none;
 }
 
@@ -1024,7 +1024,7 @@ footer span a:hover {
     padding: 30px 0;
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
-    /* border: 4px solid #01c7d0; */
+    /* border: 4px solid #00a2df; */
   }
 
   .home-2 .home-content .text-2 {
