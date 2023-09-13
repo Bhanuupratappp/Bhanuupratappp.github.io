@@ -8,6 +8,23 @@
   text-decoration: none;
 }
 
+.image-container {
+  max-width: 100%; /* Ensure the container doesn't exceed the screen width */
+  height: auto;    /* Maintain the image's aspect ratio */
+  display: flex;  /* Ensure proper block-level behavior */
+  justify-content: center;
+  margin: auto;  /* Center the container horizontally */
+
+  
+}
+
+.image-container img {
+  max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+  height: auto;
+  display: block;  /* Ensure proper block-level behavior */
+  margin: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -1094,4 +1111,5 @@ footer span a:hover {
     width: 85%;
     /* border: 3px solid red; */
   }
+ 
 }
