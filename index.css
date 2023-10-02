@@ -88,6 +88,7 @@ section .title {
   margin-bottom: 60px;
   padding-bottom: 20px;
   font-family: "Ubuntu", sans-serif;
+  
 }
 
 section .title::before {
@@ -97,7 +98,7 @@ section .title::before {
   left: 50%;
   width: 220px;
   height: 3px;
-  background: #00a2df;
+  background: #01a3de;
   transform: translateX(-50%);
 }
 
